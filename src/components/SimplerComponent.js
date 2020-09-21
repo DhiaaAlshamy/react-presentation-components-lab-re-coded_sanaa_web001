@@ -5,7 +5,7 @@ extract default function SimplerComponent {
 
     return(
       <div>
-        "I am just happy"
+        I am just happy
       </div>
     )
 
