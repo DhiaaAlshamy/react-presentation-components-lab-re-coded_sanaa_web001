@@ -9,7 +9,7 @@ this.state={
   render() {
     return(
       <div>
-
+        {this.state.mode}
       </div>
     )
   }
