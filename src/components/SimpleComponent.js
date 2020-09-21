@@ -6,6 +6,9 @@ this.state={
 }
 handleClick = () => {
   // Probably do some work to update the state
+  this.setState(prevState,{
+    mode:prevState==='happy'?'Sad':'happy'
+  })
 }
 
 
