@@ -14,5 +14,5 @@ handleClick = () => {
         {this.state.mode}
       </div>
     )
-  
+
 }
