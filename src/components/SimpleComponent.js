@@ -14,7 +14,7 @@ handleClick = () => {
 
   render() {
     return(
-      <div>
+      <div onClick={this.handleClick}>
         {this.state.mode}
       </div>
     )
