@@ -1,18 +1,13 @@
 import React from 'react'
-class ComponentName extends Component {
-  constructor(props) {
-    super(props);
+class SimpleComponent extends Component {
+
  
-    // Initial state here...
-    this.state = {
-    };
-  }
- 
-  handleClick = () => {
-    // Probably do some work to update the state
-  }
- 
+  
   render() {
-    // Return JSX that renders into HTML
+    return(
+      <div>
+            
+      </div>
+    )
   }
 }
